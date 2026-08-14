@@ -29,6 +29,8 @@ Para permitir la ejecución inmediata en entornos de desarrollo modernos (**PHP 
 
 ## 🚀 Inicio Rápido
 
+> 💡 **Nota:** Ejecútese directamente con **PHP 7.x o superior**. No es necesario encender ni configurar servidores MySQL externos; el proyecto utiliza un mock autónomo en SQLite (`mysql.shim.php`) que no requiere configuración adicional.
+
 ### 1. Clonar el repositorio
 ```bash
 git clone https://github.com/okzgn/karaoke-software-licenses-system-2010-php.git
