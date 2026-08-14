@@ -1,0 +1,5 @@
+<?php
+
+    # Uso para lib.
+
+?>

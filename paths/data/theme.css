@@ -1,0 +1,1125 @@
+body {
+text-align:center;
+font:normal 8pt tahoma;
+background-color:#000;
+color:#FFF;
+}
+
+#disabled {
+border:1px solid #999;
+background-color:#333;
+margin-top:48px;
+font-weight:700;
+padding:8px;
+}
+
+#disabled h1 {
+color:#f90;
+font-size:13pt;
+}
+
+#disabled a {
+display:inline-block;
+color:#999;
+}
+
+#LIM h1,h2,h3 {
+font-weight:400;
+font-family:arial;
+}
+
+#LIM h4,h5,h6 {
+font-weight:400;
+font-family:tahoma;
+}
+
+#LIM {
+text-align:left;
+width:880px;
+background:url(bg.gif);
+display:none;
+margin:24px auto 0;
+}
+
+#LIM .LIM-space {
+background:url(bk.gif) repeat-y;
+}
+
+#LIM a {
+cursor:pointer;
+color:#FFF;
+}
+
+#LIM select {
+font:normal 10pt tahoma;
+background-color:#333;
+border:1px solid #999;
+color:#fff;
+vertical-align:top;
+display:inline;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+}
+
+#LIM #load {
+position:absolute;
+top:12px;
+left:12px;
+width:220px;
+background:#666 url(ld.gif) 8px 4px no-repeat;
+color:#fff;
+font-weight:700;
+border-radius:6px;
+-moz-border-radius:6px;
+-webkit-border-radius:6px;
+display:none;
+padding:10px 0 10px 40px;
+}
+
+#LIM #win {
+width:400px;
+background-color:#666;
+display:none;
+position:absolute;
+z-index:99;
+border-radius:6px;
+-moz-border-radius:6px;
+-webkit-border-radius:6px;
+-moz-box-shadow:0 0 12px 6px #fff;
+-webkit-box-shadow:0 0 12px 6px #fff;
+box-shadow:0 0 12px 6px #fff;
+}
+
+#LIM #win #win_message {
+width:365px;
+background-color:#000;
+font-weight:700;
+overflow:hidden;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+line-height:15px;
+margin:6px auto;
+padding:10px;
+}
+
+#LIM #win .win-options {
+text-align:right;
+padding:4px 10px 10px;
+}
+
+#LIM #win .win-options input {
+margin-left:10px;
+}
+
+#LIM .response {
+border:1px solid #666;
+background-color:#999;
+margin-top:6px;
+font-weight:700;
+margin-bottom:6px;
+text-align:center;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+-moz-box-shadow:0 0 3px 5px #224;
+-webkit-box-shadow:0 0 3px 5px #224;
+box-shadow:0 0 3px 5px #224;
+padding:10px;
+}
+
+#LIM .response h3 {
+display:block;
+text-align:left;
+font:bold 11pt arial;
+color:#000;
+margin-bottom:2px;
+}
+
+#LIM .response h3 strong {
+color:#336;
+}
+
+#LIM .biggie {
+font-size:11pt;
+}
+
+#LIM .yellow {
+color:#fc4!important;
+border-color:#fc4;
+}
+
+#LIM .silver {
+color:#999!important;
+border-color:#666;
+}
+
+#LIM .lblue {
+color:#9cf!important;
+border-color:#9cf;
+}
+
+#LIM .green {
+color:#060!important;
+border-color:#060;
+}
+
+#LIM .red {
+color:red!important;
+border-color:red;
+}
+
+#LIM .white {
+color:#FFF!important;
+border-color:#FFF;
+}
+
+#LIM .s-frm-text {
+width:180px;
+border:1px solid #999;
+font:normal 10pt tahoma;
+color:#FFF;
+display:inline-block;
+vertical-align:top;
+background-color:#333;
+margin-bottom:2px;
+-webkit-transition:all .3s ease;
+-moz-transition:all .3s ease;
+-o-transition:all .3s ease;
+border-radius:2px;
+-moz-border-radius:2px;
+-webkit-border-radius:2px;
+padding:4px;
+}
+
+#LIM .s-frm-text:focus {
+background-color:#666;
+color:#FFF;
+-moz-box-shadow:0 0 1px 1px #000;
+-webkit-box-shadow:0 0 1px 1px #000;
+box-shadow:0 0 1px 1px #000;
+}
+
+#LIM .s-frm-text,#LIM .s-frm-text:hover,#LIM .s-frm-text:focus {
+-moz-box-shadow:inset 0 2px 2px rgba(0,0,0,0.5);
+-webkit-box-shadow:inset 0 2px 2px rgba(0,0,0,0.5);
+box-shadow:inset 0 2px 2px rgba(0,0,0,0.5);
+}
+
+#LIM .s-frm-button {
+border:0;
+font:bold 10pt tahoma;
+cursor:pointer;
+color:#000;
+-webkit-transition:all .3s ease;
+-moz-transition:all .3s ease;
+-o-transition:all .3s ease;
+border-radius:4px;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+background-color:#fc4;
+background:linear-gradient(#fc4,#f90);
+padding:4px;
+}
+
+#LIM .s-frm-button:hover {
+color:#c00;
+-moz-box-shadow:0 0 1px 1px #000;
+-webkit-box-shadow:0 0 1px 1px #000;
+box-shadow:0 0 1px 1px #000;
+}
+
+#LIM .blue {
+cursor:pointer;
+background:#224 url(deg.gif) repeat-x;
+color:#999;
+font-size:16pt;
+padding:10px 10px 8px;
+}
+
+#LIM .not-found {
+display:block;
+color:#666;
+text-align:center;
+padding:32px 0 28px;
+}
+
+#LIM .not-found-short {
+display:block;
+color:#666;
+text-align:center;
+padding:16px 0 12px;
+}
+
+#LIM #Header {
+padding-top:1px;
+padding-left:20px;
+background:url(topp.gif) no-repeat;
+overflow:hidden;
+height:1%;
+}
+
+#LIM #Header .rightside {
+float:right;
+width:620px;
+height:67px;
+}
+
+#LIM #Header .rightside .bot {
+height:67px;
+}
+
+#LIM #Header .opts {
+width:340px;
+float:left;
+color:#9cf;
+padding:28px 0 0 10px;
+}
+
+#LIM #Header .space-small {
+padding-top:20px;
+}
+
+#LIM #Header .where {
+float:right;
+padding-right:28px;
+letter-spacing:-2px;
+color:#111;
+}
+
+#LIM #Header .where h2 {
+padding-top:30px;
+font-weight:700;
+font-size:22pt;
+}
+
+#LIM #Content {
+overflow:hidden;
+height:1%;
+padding:12px 20px;
+}
+
+#LIM #Content .tabs {
+float:left;
+width:220px;
+font-size:11pt;
+font-family:arial;
+padding:20px 0;
+}
+
+#LIM #Content .tabs .tabs-start {
+height:12px;
+font-size:0;
+background:url(tkt.gif);
+}
+
+#LIM #Content .tabs .tabs-space {
+background-color:#666;
+padding-bottom:12px;
+}
+
+#LIM #Content .tabs .tabs-end {
+height:22px;
+font-size:0;
+background:url(tkb.gif) left bottom;
+}
+
+#LIM #Content .tabs .tabs-space a {
+display:inline-block;
+width:220px;
+text-decoration:none;
+}
+
+#LIM #Content .tabs .tabs-space a .gl {
+display:block;
+padding:4px 10px;
+}
+
+#LIM #Content .tabs .tabs-space a .aw {
+padding-right:8px;
+color:#999;
+font-weight:700;
+}
+
+#LIM #Content .tabs .tabs-space a:hover .aw {
+color:#FFF;
+font-weight:700;
+}
+
+#LIM #Content .tabs .tabs-space li.selected a {
+background:#113 url(std.gif) no-repeat;
+font-weight:700;
+color:#fc4;
+}
+
+#LIM #Content .tabs .tabs-space li.selected a .gl {
+background:url(ld_b.gif) left bottom no-repeat;
+padding:8px 0 9px 20px;
+}
+
+#LIM #Content .tabs .tabs-space li.selected a .aw {
+color:#fc4;
+font-size:13pt;
+}
+
+
+#LIM #Content .container {
+float:left;
+width:620px;
+}
+
+#LIM #Content .container .container-start {
+height:19px;
+font-size:0;
+background:url(cnt.gif);
+}
+
+#LIM #Content .container .container-space {
+overflow:hidden;
+background-color:#113;
+height:1%;
+padding:2px 20px;
+}
+
+#LIM #Content .container .container-end {
+height:19px;
+font-size:0;
+background:url(cnb.gif) left bottom;
+}
+
+#LIM #Footer {
+background:url(bott.gif) no-repeat;
+height:49px;
+color:#666;
+font-weight:700;
+}
+
+#LIM #Footer .Footer-space {
+padding-top:18px;
+text-align:center;
+}
+
+#LIM .ACCESS .login {
+width:306px;
+border:1px solid #666;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+-moz-box-shadow:0 0 0 2px #336;
+-webkit-box-shadow:0 0 0 2px #336;
+box-shadow:0 0 0 2px #336;
+margin:0 auto;
+}
+
+#LIM .ACCESS .special .box {
+padding:6px 20px 12px;
+}
+
+#LIM .ACCESS .add {
+width:300px;
+}
+
+#LIM .searchLics .s-frm-button {
+width:60px;
+}
+
+#LIM .searchLics .s-frm-text {
+width:152px;
+}
+
+#LIM .chManage strong {
+display:inline-block;
+width:124px;
+color:#999;
+}
+
+#LIM .ACCESS .add h4.another {
+color:#999;
+}
+
+#LIM .ACCESS .chunker {
+width:270px;
+}
+
+#LIM .ACCESS .alic .s-frm-text {
+width:63px;
+}
+
+#LIM .ACCESS .alic .attrib {
+width:74px;
+}
+
+#LIM .ACCESS .seel select {
+width:185px;
+margin-bottom:6px;
+}
+
+#LIM .ACCESS .seel input.modlic {
+width:82px;
+}
+
+#LIM .ACCESS .seel input.dellic {
+width:62px;
+}
+
+#LIM .ACCESS .seel .space {
+margin-top:12px;
+text-align:center;
+border-top:1px dotted #336;
+}
+
+#LIM .ACCESS input.erase {
+position:relative;
+top:9px;
+left:-10px;
+width:104px;
+}
+
+#LIM .ACCESS .msgs .parts {
+background-color:#336;
+overflow:hidden;
+height:1%;
+padding:1px;
+}
+
+#LIM .ACCESS .msgs .parts span {
+float:left;
+display:block;
+border-left:1px solid #448;
+border-right:1px solid #000;
+font-weight:700;
+color:#9cf;
+padding:4px 10px;
+}
+
+#LIM .ACCESS .msgs .parts .names {
+border-left:0;
+width:120px;
+}
+
+#LIM .ACCESS .msgs .parts .message {
+width:250px;
+border-right:0;
+}
+
+#LIM .ACCESS .msgs .box {
+border: 1px solid #336;
+height:120px;
+overflow:auto;
+padding:1px;
+}
+
+#LIM .ACCESS .msgs .box .msg {
+overflow:hidden;
+height:19px;
+border-bottom:1px solid #336;
+cursor:pointer;
+}
+
+#LIM .ACCESS .msgs .box .tigtened {
+background-color:#224;
+}
+
+#LIM .ACCESS .msgs .box .msg span {
+float:left;
+display:block;
+overflow:hidden;
+height:15px;
+border-right:1px solid #224;
+padding:3px 10px 0;
+}
+
+#LIM .ACCESS .msgs .box .msg-hover {
+background-color:#333;
+color:#fc4;
+border-color:#262626;
+}
+
+#LIM .ACCESS .msgs .box .msg-hover span {
+border-color:#262626;
+}
+
+#LIM .ACCESS .msgs .box .msg-selected {
+background-color:#666;
+color:#ffc;
+font-weight:700;
+border-color:#555;
+}
+
+#LIM .ACCESS .msgs .box .msg-selected span {
+border-color:#666;
+}
+
+#LIM .ACCESS .msgs .box .msg .message {
+width:230px;
+border-right:0;
+}
+
+#LIM .ACCESS .msgs #msgComplete {
+margin-top:3px;
+background-color:#000;
+display:none;
+color:#ccc;
+border-radius:6px;
+-moz-border-radius:6px;
+-webkit-border-radius:6px;
+padding:8px 16px 12px;
+}
+
+#LIM .ACCESS .msgs #msgComplete h3 {
+font:bold 12pt arial;
+text-align:center;
+color:#fc4;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+background-color:#111;
+background:linear-gradient(#333,#000);
+padding:2px 0;
+}
+
+#LIM .ACCESS .msgs #msgComplete h4 {
+display:inline-block;
+color:#9cf;
+margin:4px 10px 4px 0;
+}
+
+#LIM .ACCESS .msgs #msgComplete .prasi {
+width:550px;
+overflow:auto;
+}
+
+#LIM .ACCESS .Panel {
+border:1px solid #666;
+overflow:hidden;
+height:1%;
+}
+
+#LIM .ACCESS .Panel h3 {
+text-align:center;
+font-weight:700;
+}
+
+#LIM .ACCESS .Panel .grl h4 {
+display:inline;
+font-weight:700;
+padding-right:8px;
+color:#999;
+}
+
+#LIM .ACCESS .Panel .grl {
+overflow:hidden;
+height:1%;
+padding:10px;
+}
+
+#LIM .ACCESS .Panel .double {
+overflow:hidden;
+height:1%;
+border-bottom:1px solid #224;
+padding:3px 4px;
+}
+
+#LIM .ACCESS .Panel .double .left {
+width:59%;
+}
+
+#LIM .ACCESS .Panel .double .right {
+width:40%;
+}
+
+#LIM .ACCESS .Panel .double h4 {
+background-color:#999;
+font-weight:700;
+color:#000;
+font-size:10pt;
+padding:6px 10px;
+}
+
+#LIM .ACCESS .Panel .double .left .licences {
+border:1px solid #999;
+overflow:auto;
+height:100px;
+padding:1px;
+}
+
+#LIM .ACCESS .Panel .double .left .licences .unique {
+height:20px;
+font-size:9pt;
+cursor:pointer;
+border-bottom:1px solid #224;
+}
+
+#LIM .ACCESS .Panel .double .left .licences .unique span.client {
+display:block;
+padding:2px 10px;
+}
+
+#LIM .ACCESS .Panel .double .left .licences .unique-hover {
+background-color:#666;
+color:#ffc;
+border-color:#444;
+}
+
+#LIM .ACCESS .Panel .double .left .licences .unique-selected {
+background-color:#336;
+font-weight:700;
+color:#9cf;
+border-color:#224;
+}
+
+#LIM .ACCESS .Panel .double .left .licences .unique-selected strong {
+color:#9cf;
+}
+
+#LIM .ACCESS .Panel .double .left #licComplete {
+background-color:#333;
+border-bottom:1px solid #666;
+display:none;
+padding:6px 10px;
+}
+
+#LIM .ACCESS .Panel .double .left #licComplete .pointer {
+margin-bottom:2px;
+}
+
+#LIM .ACCESS .Panel .double .left #licComplete strong {
+color:#fc4;
+float:left;
+}
+
+#LIM .ACCESS .Panel .double .left #licComplete .lblue {
+font-weight:700;
+}
+
+#LIM .ACCESS .Panel .double .left .limits {
+background-color:#333;
+text-align:center;
+padding:4px 10px;
+}
+
+#LIM .ACCESS .Panel .double .left .limits .s-frm-text {
+width:60px;
+font-size:8pt;
+}
+
+#LIM .ACCESS .Panel .double .right fieldset {
+background-color:#224;
+padding:4px 10px 10px;
+}
+
+#LIM .ACCESS .Panel .double .right h5 {
+font-weight:700;
+margin:6px 0 2px;
+}
+
+#LIM .CONTACT fieldset {
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+-moz-box-shadow:0 0 0 2px #336;
+-webkit-box-shadow:0 0 0 2px #336;
+box-shadow:0 0 0 2px #336;
+border:1px solid #666;
+}
+
+#LIM .CONTACT h4 {
+color:#FFF;
+font-weight:700;
+margin:8px 0 2px;
+}
+
+#LIM .CONTACT textarea {
+width:95%;
+height:120px;
+}
+
+#LIM .HOME {
+padding:2px 0!important;
+}
+
+#LIM .HOME .anun {
+margin-bottom:12px;
+padding:0 20px;
+}
+
+#LIM .HOME .anun .downs {
+padding-top:8px;
+overflow:hidden;
+height:1%;
+}
+
+#LIM .HOME .anun .downs a.middle {
+color:#000;
+background:url(beta/gbu_n.gif);
+}
+
+#LIM .HOME .anun .downs a.middle:hover {
+color:#fff;
+background:url(beta/gbu_h.gif);
+}
+
+#LIM .HOME .anun .downs a.middle .space {
+background:url(beta/a_dwn.gif) 10px 16px no-repeat;
+}
+
+#LIM .HOME .anun .downs a.blackie {
+color:#fc0;
+background:url(beta/cbu_n.gif);
+}
+
+#LIM .HOME .anun .downs a.blackie:hover {
+background:url(beta/cbu_h.gif);
+}
+
+#LIM .HOME .anun .downs a.blackie .space {
+background:url(beta/b_dwn.gif) 10px 16px no-repeat;
+padding: 0;
+font-size: 10pt;
+padding: 12px 0 8px 56px;
+}
+
+#LIM .HOME .anun .downs a.special {
+width:247px;
+color:#113;
+font-size:16pt;
+background:url(beta/dow_n.gif);
+}
+
+#LIM .HOME .anun .downs a.special:hover {
+color:blue;
+background-image:url(beta/dow_h.gif);
+}
+
+#LIM .HOME .anun .downs a .space {
+display:block;
+padding:8px 8px 0 52px;
+}
+
+#LIM .HOME .anun .downs a .bigger {
+padding-top:18px;
+padding-bottom:12px;
+}
+
+#LIM .HOME .anun .downs a.special .space {
+margin-bottom:2px;
+line-height:18px;
+padding:14px 12px 0 78px;
+}
+
+#LIM .HOME .anun .downs a.special .space .lil {
+font-size:8pt;
+display:block;
+color:#fff;
+font-weight:400;
+}
+
+#LIM .HOME .anun .downs a.special .light {
+color:#c00;
+}
+
+#LIM .HOME .anun .downs a.special:hover .light {
+color:red;
+}
+
+#LIM .HOME .anun .downs a {
+display:block;
+float:left;
+width:162px;
+height:77px;
+text-decoration:none;
+margin-right:3px;
+font:bold 12pt arial;
+}
+
+#LIM .HOME .anun .downs a:hover {
+color:#fff;
+}
+
+
+
+
+
+
+
+
+#LIM #Content .tabs .right {
+	width: 210px;
+	padding-right: 1px;
+	font-family: tahoma !Important;
+	font-size: 8pt !important;
+}
+
+
+
+#LIM .box {
+margin-bottom:6px;
+}
+
+#LIM .left .box {
+background:url(bxl.gif) right bottom;
+}
+
+#LIM .right .box {
+background:url(bxr.gif) left bottom;
+}
+
+#LIM .box h3 {
+font-size:11pt;
+color:#fc4;
+font-weight:700;
+background:url(deg.gif) repeat-x;
+padding:8px 20px;
+}
+
+#LIM .box .box-space {
+text-align:justify;
+line-height:14px;
+padding:8px 14px 12px;
+}
+#LIM .box .tugs {
+	overflow: hidden;
+	height: 1%;
+}
+#LIM .box .tugs a {
+background:url(beta/cd.gif) 2px 3px no-repeat;
+width:86px;
+float:left;
+text-align:center;
+text-decoration:none;
+font-weight:700;
+border-radius:6px;
+-moz-border-radius:6px;
+-webkit-border-radius:6px;
+padding:2px 1px;
+}
+
+#LIM .box .tugs a.recharge {
+background-image:url(beta/cdrech.gif);
+}
+
+#LIM .box .tugs a span {
+display:inline-block;
+padding:67px 0 8px 7px;
+}
+
+#LIM .box .tugs a:hover {
+background-color:#336;
+color:#ffc;
+}
+
+#LIM .box .tugs a:hover strong {
+color:#fc0;
+}
+
+#LIM .box .plus {
+overflow:auto;
+height:90px;
+border:1px solid #336;
+text-align:left;
+color:#999;
+}
+
+#LIM .box h4 {
+color:#9cf;
+margin-bottom:2px;
+font-weight:700;
+}
+
+#LIM #moreInfo {
+	display: none;
+}
+
+#LIM .lookMoreInfo {
+	display: block;
+	width: 180px;
+	margin-top: 12px;
+	color: #666;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#LIM .licView strong {
+width:110px;
+display:inline-block;
+color:#999;
+}
+
+
+
+
+
+#LIM .searchResults {
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+height:200px;
+overflow:auto;
+border:1px solid #333;
+padding:6px;
+}
+
+#LIM .searchResults .cell {
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border:1px solid #333;
+background-color:#222;
+margin-bottom:6px;
+padding:6px;
+}
+
+#LIM .searchResults .cell strong {
+display:inline-block;
+width:140px;
+color:#999;
+}
+
+#LIM .gTools .gt-trademarks {
+font-size:7.5pt;
+width:124px;
+}
+
+#LIM .gTools .gt-gomark {
+width:30px;
+}
+
+#LIM .genTrade {
+line-height:10px;
+}
+
+#LIM .genTrade strong {
+display:inline-block;
+width:124px;
+color:#999;
+font-size:93%;
+}
+
+#LIM .genTrade .s-frm-text {
+font-size:93%;
+width:220px;
+}
+
+#LIM .response a,#LIM .biggie strong {
+color:#000;
+}
+
+#LIM .pointer,#LIM .HOME .box .tugs {
+overflow:hidden;
+height:1%;
+}
+
+#LIM .left,#LIM #Header h1 {
+float:left;
+}
+
+#LIM .right,#LIM .ACCESS .Panel .double h4 span,#LIM .ACCESS .Panel .double .left #licComplete span {
+float:right;
+}
+
+#LIM .txt-center,#LIM .center {
+text-align:center;
+}
+
+#LIM .s-frm-text:hover,#LIM #Content .tabs .tabs-space a:hover {
+background-color:#999;
+color:#000;
+}
+
+#LIM #Content .tabs .tabs-space li.selected a:hover,#LIM #Content .tabs .tabs-space li.selected a:hover .aw {
+color:#fc4;
+}
+
+#LIM .ACCESS .login h4,#LIM .ACCESS .special h4 {
+font-weight:700;
+color:#FFF;
+margin:8px 0 2px;
+}
+
+#LIM .ACCESS .login .s-frm-button,#LIM .ACCESS .manage .infusr,#LIM .ACCESS .manage .delusr,#LIM .CONTACT .s-frm-button {
+width:70px;
+}
+
+#LIM .ACCESS .login .box,#LIM .CONTACT .box {
+padding:12px 20px 20px;
+}
+
+#LIM .ACCESS .add .s-frm-button,#LIM .ACCESS .newlic .s-frm-button {
+width:76px;
+}
+
+#LIM .searchLics #seaUsers,#LIM .ACCESS .alic select {
+width:225px;
+}
+
+#LIM .ACCESS .manage .editusr,#LIM .chManage #newUsrLics {
+width:80px;
+}
+
+#LIM .ACCESS .manage select,#LIM .gTools #marks {
+width:225px;
+margin-bottom:2px;
+}
+
+#LIM .ACCESS .alic .howlics,#LIM .ACCESS .seel input.getlic {
+width:72px;
+}
+
+#LIM .ACCESS .seel select.clientList,#LIM .genTrade #gt_dirweb {
+width:180px;
+}
+
+#LIM .ACCESS .seel input.seeb,#LIM .ACCESS .Panel .double .left .limits .s-frm-button {
+width:40px;
+}
+
+#LIM .ACCESS .msgs .parts .subject,#LIM .ACCESS .msgs .box .msg .subject {
+width:140px;
+}
+
+#LIM .ACCESS .msgs .box .msg .hide,#LIM .ACCESS .Panel .double .left .licences .unique span {
+display:none;
+}
+
+#LIM .ACCESS .msgs .box .msg .names,#LIM .genTrade #gt_dir {
+width:120px;
+}
+
+#LIM .ACCESS .Panel .double .left .licences .unique-hover strong,#LIM .HOME .box .tugs a strong {
+color:#ffc;
+}
+
+#LIM .HOME .left,#LIM .HOME .right {
+width:295px;
+}
+
+#LIM .licView h3,#LIM .chManage h3,#LIM .genTrade h3 {
+color:#9cf;
+margin-bottom:6px;
+font:bold 11pt arial;
+}
+
+
+
+.aw {
+	font-family: verdana !important;
+	font-weight: normal !important;
+	font-size: 110%;
+}
+
+h1 img { height: 67px; }
