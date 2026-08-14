@@ -31,7 +31,7 @@ Para permitir la ejecución inmediata en entornos de desarrollo modernos (**PHP 
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/TU_USUARIO/karaoke-software-licenses-system-2010-php.git
+git clone https://github.com/okzgn/karaoke-software-licenses-system-2010-php.git
 cd karaoke-software-licenses-system-2010-php
 ```
 
