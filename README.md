@@ -43,7 +43,7 @@ php -S localhost:8000
 ```
 
 ### 3. Abrir en tu navegador
-* **Landing Page:** [http://localhost:8000](http://localhost:8000)
+* **Landing Page:** [http://localhost:8000](http://localhost:8000/index.php)
 * **Portal de Acceso:** [http://localhost:8000/access.php](http://localhost:8000/access.php)
 
 ---
